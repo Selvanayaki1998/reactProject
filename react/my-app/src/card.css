@@ -1,0 +1,28 @@
+.box {
+  border: 1px solid rgb(30, 144, 255);
+  background-color: white;
+  color: rgb(72, 70, 70);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+h4,
+h2 {
+  text-align: center;
+}
+p {
+  margin-left: 20px;
+}
+button {
+  padding: 10px;
+  border: 1px solid rgb(135, 206, 235);
+  background-color: rgb(135, 206, 235);
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  width: 450px;
+}
+span {
+  padding: 10px;
+}
