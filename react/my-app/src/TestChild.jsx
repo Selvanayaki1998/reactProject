@@ -21,9 +21,12 @@ function TestChild() {
   // );
   // });
   return (
-    <div className="main">
-      <Card />
-    </div>
+    <>
+      <h1>React Price Card Task</h1>
+      <div className="main">
+        <Card />
+      </div>
+    </>
   );
 }
 export default TestChild;
