@@ -42,18 +42,7 @@ function Card() {
       ],
     },
   ];
-  // cardData.map((data, index) => {
-  //   return (
-  //     <div className="box" key={`card-${index}`}>
-  //       <h4>{data.title}</h4>
-  //       <h2>{data.month}</h2>
-  //       {data.cardDetails.map((detail, index) => {
-  //         return <p key={`${data.title}-${index}`}>{detail.text}</p>;
-  //       })}
-  //       <button>BUTTON</button>
-  //     </div>
-  //   );
-  // });
+
   return cardData.map((data, index) => {
     return (
       <div className="box" key={`card-${index}`}>
